@@ -1,0 +1,306 @@
+# StashieBot Terms of Service
+
+**Last Updated:** September 22, 2026
+
+These Terms of Service ("Terms") govern the use of **StashieBot** ("StashieBot", "the Bot", "we", "us", or "our"), a Discord bot that provides configurable economy, rewards, inventory, shop, collection, and administration features for Discord servers.
+
+By inviting, accessing, or using StashieBot, you agree to these Terms. If you do not agree with these Terms, you should not use StashieBot.
+
+## 1. Description of the Service
+
+StashieBot is a Discord application that provides server-based virtual economy and community engagement features.
+
+Depending on how a server administrator configures the Bot, features may include:
+
+* Virtual currency balances
+* Daily rewards
+* Member-to-member currency transfers
+* Leaderboards
+* Message and voice activity rewards
+* Random currency drops
+* Collectible items and collections
+* Virtual shops
+* Member inventories
+* Item effects and temporary effects
+* Discord role rewards
+* Server-specific economy settings
+* Role-based administrator permissions
+* User blacklists
+* Transaction and purchase records
+* Administrative audit records
+* Database backups and maintenance
+
+StashieBot does not provide real-world currency, financial services, payment processing, banking services, or monetary value for its virtual currency or items.
+
+## 2. Discord Account and Server Requirements
+
+StashieBot operates through Discord and requires users and server administrators to comply with the applicable Discord Terms of Service and Community Guidelines.
+
+You are responsible for maintaining control over your Discord account and for all actions performed through your account.
+
+Server administrators are responsible for deciding whether StashieBot is appropriate for their server and for configuring the Bot according to their community's rules.
+
+## 3. Server Administration
+
+StashieBot provides server administrators with tools to configure and manage their server's economy.
+
+Administrators may be able to:
+
+* Configure the server's virtual currency
+* Configure message and voice rewards
+* Configure daily rewards
+* Configure shops and item prices
+* Configure shop stock and availability
+* Create, edit, and remove items
+* Configure item effects
+* Configure collectible collections
+* Configure random drops
+* Configure economy permissions
+* Blacklist members from economy features
+* Modify member balances
+* Reset member economy data
+* Reset the server economy
+
+Server administrators are responsible for their configuration choices and for the consequences of using administrative features.
+
+StashieBot does not guarantee that an administrator's configuration will produce a particular economic outcome or community experience.
+
+## 4. Virtual Currency and Items
+
+StashieBot may provide virtual currencies, items, collectibles, roles, rewards, and other virtual content.
+
+These are provided solely for use within Discord servers using StashieBot.
+
+Unless explicitly stated otherwise:
+
+* Virtual currency has no cash value.
+* Virtual currency cannot be exchanged for real-world money through StashieBot.
+* Virtual items have no real-world monetary value.
+* Virtual currency and items are not financial assets.
+* StashieBot does not provide a mechanism for cashing out virtual currency.
+* StashieBot does not guarantee the permanent availability of virtual currency, items, or rewards.
+
+Server administrators may configure, modify, remove, or reset virtual economy content.
+
+## 5. Economy Data
+
+StashieBot maintains server-specific economy data required to provide its features.
+
+Depending on the features enabled by a server, this may include information such as:
+
+* Discord user IDs
+* Discord server IDs
+* User balances
+* Inventory ownership
+* Item and collectible ownership
+* Equipped items
+* Active effects
+* Daily reward records
+* Transaction records
+* Shop purchase records
+* Activity and reward cooldown information
+* Random drop activity
+* Random drop claim information
+* Collection progress
+* Collection completion records
+* Server configuration
+* Configured roles and channels
+* Economy permissions
+* Blacklist records
+* Administrative audit information
+
+This information is used to operate and maintain the Bot's economy features.
+
+## 6. Data Retention
+
+Some economy information is persistent and may remain stored after a user stops actively using a particular feature.
+
+For example, transaction history, purchase records, collection progress, and other audit information may be retained to maintain economy consistency and administrative records.
+
+Server administrators may have access to administrative functions that modify or remove certain economy data.
+
+Some historical records may intentionally be preserved when related user economy data is wiped in order to maintain transaction or audit history.
+
+## 7. Data Accuracy
+
+StashieBot attempts to maintain accurate and consistent economy data through database constraints, transactions, atomic operations, and regular backups.
+
+However, no software system can guarantee that data will never be lost, corrupted, delayed, or affected by technical failures.
+
+StashieBot is not responsible for losses resulting from:
+
+* Discord outages or API changes
+* Hosting or infrastructure failures
+* Database corruption
+* Software bugs
+* Incorrect administrator configuration
+* Unauthorized access to a server or Discord account
+* Third-party services
+* Network failures
+* User actions
+* Circumstances outside our reasonable control
+
+Backups are intended to reduce the risk of permanent data loss but do not constitute a guarantee of recovery.
+
+## 8. Fair Use
+
+Users must use StashieBot in a reasonable manner and must not intentionally attempt to exploit, abuse, manipulate, or disrupt the Bot.
+
+Prohibited behavior includes, but is not limited to:
+
+* Attempting to bypass economy restrictions
+* Attempting to duplicate virtual currency or items
+* Exploiting software bugs for unfair advantage
+* Attempting to interfere with database operations
+* Attempting to bypass administrator permissions
+* Attempting to manipulate random reward systems
+* Attempting to intentionally cause excessive resource consumption
+* Attempting to gain unauthorized access to the Bot or its infrastructure
+* Using automated systems to abuse or manipulate Bot functionality
+* Intentionally exploiting race conditions or transactional behavior
+* Attempting to interfere with other servers using StashieBot
+
+If an exploit or serious bug is discovered, users are encouraged to report it rather than intentionally abusing it.
+
+## 9. Administrative Actions
+
+Server administrators may use StashieBot's administrative functionality according to their Discord server's rules.
+
+Administrators may modify balances, configure rewards, manage items, manage shops, configure collections, manage permissions, blacklist users, or reset economy data where the relevant permissions allow it.
+
+StashieBot is not responsible for disputes between server administrators and members regarding virtual currency, items, rewards, or other server economy decisions.
+
+Server administrators are responsible for informing their members about relevant server-specific economy rules.
+
+## 10. Availability
+
+We may modify, update, suspend, or discontinue StashieBot or any of its features at any time.
+
+Features may occasionally become unavailable because of:
+
+* Maintenance
+* Software updates
+* Discord API changes
+* Infrastructure problems
+* Database maintenance
+* Security issues
+* Technical failures
+* Other circumstances outside our control
+
+We do not guarantee uninterrupted or error-free operation.
+
+## 11. Updates and Changes
+
+StashieBot may receive updates that change, add, remove, or modify features.
+
+Such changes may include:
+
+* Economy mechanics
+* Reward calculations
+* Item effects
+* Shop behavior
+* Random drop behavior
+* Collection mechanics
+* Administrative tools
+* Data storage methods
+* Database structures
+* Command names or functionality
+
+We may also update these Terms when necessary.
+
+Continued use of StashieBot after an updated version of these Terms becomes effective constitutes acceptance of the updated Terms.
+
+## 12. Security
+
+We take reasonable measures to protect StashieBot's data and infrastructure.
+
+However, no online service or database can guarantee absolute security.
+
+Users and server administrators are responsible for maintaining the security of their own Discord accounts, servers, permissions, and credentials.
+
+Never provide your Discord account password or Bot token to StashieBot or to anyone claiming to represent the project.
+
+## 13. Third-Party Services
+
+StashieBot relies on Discord and may depend on other third-party infrastructure or services.
+
+StashieBot is not responsible for changes, outages, limitations, or failures caused by third-party services.
+
+Discord remains an independent platform and StashieBot is subject to the capabilities and limitations of the Discord platform.
+
+## 14. Intellectual Property
+
+The StashieBot name, branding, source code, documentation, graphics, and other project materials may be protected by applicable intellectual property laws.
+
+Unless otherwise stated in the project's license or documentation, you may not claim ownership of StashieBot or its original project materials.
+
+Third-party trademarks, including Discord and its related trademarks, remain the property of their respective owners.
+
+## 15. Disclaimer
+
+StashieBot is provided on an "as is" and "as available" basis.
+
+To the extent permitted by applicable law, we make no warranties regarding:
+
+* Availability
+* Reliability
+* Accuracy
+* Performance
+* Availability of specific features
+* Permanent preservation of economy data
+* Compatibility with future Discord changes
+* Freedom from bugs or errors
+
+Use of StashieBot is at your own risk.
+
+## 16. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the StashieBot project and its developers will not be liable for indirect, incidental, special, consequential, or other damages arising from the use of or inability to use StashieBot.
+
+This includes, where applicable, loss of virtual currency, virtual items, economy progress, configuration, data, or other virtual content.
+
+Nothing in these Terms excludes or limits liability where such exclusion or limitation is prohibited by applicable law.
+
+## 17. Termination
+
+We may restrict, suspend, or terminate access to StashieBot if necessary, including in cases involving:
+
+* Abuse
+* Exploitation
+* Security threats
+* Attempts to compromise the service
+* Violations of these Terms
+* Violations of applicable laws
+* Other behavior that may negatively affect the service or other users
+
+Server administrators may also remove StashieBot from their server at any time.
+
+## 18. Reporting Bugs and Abuse
+
+Users are encouraged to report security issues, serious bugs, exploits, or abusive behavior through the official StashieBot support channel or another official contact method provided by the project.
+
+When reporting an issue, provide enough information for the issue to be investigated without intentionally continuing to exploit it.
+
+## 19. Privacy
+
+Use of StashieBot may involve the processing and storage of Discord-related identifiers and economy information necessary to operate the service.
+
+For information about how StashieBot collects, uses, stores, and handles information, please refer to the StashieBot Privacy Policy.
+
+The Privacy Policy is separate from these Terms of Service.
+
+## 20. Acceptance of These Terms
+
+By inviting StashieBot to a Discord server, using its commands, interacting with its features, or otherwise using the service, you acknowledge that you have read and agreed to these Terms.
+
+If you do not agree with these Terms, do not use StashieBot.
+
+## 21. Contact
+
+For questions, bug reports, abuse reports, or other inquiries regarding StashieBot, please use the official StashieBot support channel or contact method provided by the project.
+
+---
+
+**StashieBot**
+
+*Virtual economy tools for Discord communities.*
