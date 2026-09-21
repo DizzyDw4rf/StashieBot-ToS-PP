@@ -1,0 +1,506 @@
+# StashieBot Privacy Policy
+
+**Last Updated:** September 22, 2026
+
+This Privacy Policy explains how **StashieBot** ("StashieBot", "the Bot", "we", "us", or "our") collects, uses, stores, and protects information when you use StashieBot on Discord.
+
+StashieBot is a Discord application that provides server-based economy, rewards, inventory, shop, collectible, and administration features.
+
+By using StashieBot, you acknowledge that information described in this Privacy Policy may be processed as necessary to provide the Bot's functionality.
+
+---
+
+## 1. Scope
+
+This Privacy Policy applies to information processed by StashieBot through its operation on Discord.
+
+It covers information associated with:
+
+* Discord users who interact with StashieBot
+* Members of Discord servers where StashieBot is installed
+* Discord servers using StashieBot
+* Server administrators who configure StashieBot
+* Users who interact with economy commands, rewards, shops, inventories, collections, or random drops
+
+This Privacy Policy does not govern Discord's own collection and processing of information.
+
+Discord operates independently from StashieBot and has its own Privacy Policy and terms. Discord's current documentation explains that third-party applications and bots have their own data practices in addition to Discord's own processing.
+
+---
+
+# 2. Information We Collect
+
+StashieBot is designed to collect and store only information necessary to provide its economy and administrative functionality.
+
+## 2.1 Discord User Information
+
+When a user interacts with StashieBot or participates in a server using the Bot, StashieBot may process:
+
+* Discord User ID
+* Discord Guild/Server ID
+* Discord channel ID where required
+* Discord role IDs where required for role-based features
+* Discord username or display information when required for displaying responses
+* User-related Discord metadata required to perform a requested action
+
+The primary persistent identifier used by the economy database is the Discord User ID.
+
+StashieBot does not require users to provide a real name, physical address, telephone number, or government identification number.
+
+---
+
+## 2.2 Server Information
+
+For servers using StashieBot, we may store:
+
+* Discord server ID
+* Configured currency name
+* Configured currency symbol
+* Server timezone
+* Message reward configuration
+* Voice reward configuration
+* Random drop configuration
+* Configured drop channel ID
+* Configured roles used by economy features
+* Configured economy permissions
+* Shop configuration
+* Item configuration
+* Collection configuration
+* Other settings required to operate the server's economy
+
+This information is used to keep each server's economy independent from other servers.
+
+---
+
+## 2.3 Economy Information
+
+When users participate in StashieBot's economy, the Bot may store:
+
+* Current virtual currency balance
+* Daily reward state
+* Daily reward history
+* Currency transactions
+* Currency transfers
+* Inventory items
+* Item quantities
+* Equipped items
+* Active item effects
+* Item effect expiration information
+* Shop purchases
+* Collection ownership
+* Collection progress
+* Collection completion records
+* Reward history
+* Economy activity required for cooldowns
+
+This information is necessary to provide persistent economy functionality.
+
+---
+
+## 2.4 Message Activity Information
+
+StashieBot may process limited information about message activity for its reward and random-drop systems.
+
+For example, the Bot may process:
+
+* Guild ID
+* Channel ID
+* User ID
+* Message timestamp
+
+The random-drop system uses this information to determine whether enough different human members have recently participated in the configured channel.
+
+StashieBot does **not** need to permanently store the complete content of every message in order to provide the normal message reward or random-drop functionality.
+
+Where message content is received through Discord in order to process an event, it is not intentionally stored as part of the persistent economy database unless a specific feature explicitly requires it.
+
+---
+
+## 2.5 Voice Activity Information
+
+StashieBot may process information related to voice-channel participation for voice rewards.
+
+This may include:
+
+* Guild ID
+* User ID
+* Voice channel information
+* Voice activity timestamps
+* Reward cooldown information
+
+StashieBot uses this information to calculate configured voice-channel economy rewards.
+
+StashieBot does not record or store voice audio.
+
+---
+
+## 2.6 Administrative Information
+
+When administrators use StashieBot's management features, the Bot may store information necessary to maintain administrative and audit records.
+
+This may include:
+
+* Administrator/user ID
+* Guild ID
+* Administrative action
+* Target user ID where applicable
+* Relevant item, shop, collection, or configuration ID
+* Action timestamp
+* Reason information where an administrator provides one
+
+This information may be used to maintain an audit trail and help administrators understand changes made to their server economy.
+
+---
+
+# 3. Information We Do Not Intentionally Collect
+
+StashieBot is not designed to intentionally collect:
+
+* Discord account passwords
+* Discord authentication tokens
+* Payment card information
+* Bank account information
+* Government identification numbers
+* Home addresses
+* Telephone numbers
+* Private Discord messages unrelated to StashieBot interactions
+* Voice recordings
+* Webcam/video recordings
+* Financial account information
+
+Users should never provide passwords, authentication tokens, or other sensitive credentials to StashieBot.
+
+---
+
+# 4. How We Use Information
+
+Information processed by StashieBot is used to operate, maintain, secure, and improve the Bot's functionality.
+
+Examples include:
+
+### Providing economy functionality
+
+We use user and server identifiers to associate balances, inventories, transactions, rewards, shops, items, and other economy data with the correct Discord server and member.
+
+### Processing rewards
+
+Activity information may be used to determine whether a user qualifies for message, voice, daily, or random-drop rewards.
+
+### Maintaining transaction history
+
+Transaction and purchase information is stored so that economy operations can remain consistent and auditable.
+
+### Enforcing administrator configuration
+
+Server-specific permissions, blacklists, settings, and configurations are used to enforce the rules configured by server administrators.
+
+### Preventing abuse
+
+Certain information may be used to detect or investigate attempts to exploit economy mechanics, bypass permissions, manipulate rewards, or otherwise abuse StashieBot.
+
+### Maintaining database integrity
+
+Persistent records allow StashieBot to recover and maintain economy state across restarts and deployments.
+
+### Performing backups
+
+StashieBot may create database backups containing the information described in this Privacy Policy so that economy data can potentially be restored following technical failures.
+
+---
+
+# 5. Legal Basis for Processing
+
+Depending on the applicable law and circumstances, information may be processed because it is necessary to:
+
+* Provide the requested Bot functionality
+* Perform actions requested by users or server administrators
+* Maintain the integrity and security of the service
+* Comply with applicable legal obligations
+* Protect the rights, property, and security of the service and its users
+* Pursue legitimate interests where permitted by applicable law
+
+Where applicable law requires consent or another specific legal basis, processing will be handled according to those requirements.
+
+This Privacy Policy does not attempt to determine which legal basis applies to every individual user or jurisdiction.
+
+---
+
+# 6. How Information Is Stored
+
+StashieBot uses a relational SQLite database for persistent economy data.
+
+The database contains information such as:
+
+* User records
+* Guild records
+* Member balances
+* Inventory records
+* Item records
+* Shop records
+* Transactions
+* Daily claims
+* Activity records
+* Random-drop records
+* Collection records
+* Permissions
+* Blacklists
+* Active effects
+* Administrative information
+
+The Bot uses database constraints and transactions to reduce the risk of inconsistent economy data.
+
+The database may use SQLite Write-Ahead Logging (WAL) and integrity checks as part of normal operation.
+
+---
+
+# 7. Database Backups
+
+StashieBot may create automatic database backups.
+
+Automatic backups are intended to protect against data loss caused by technical failures or database problems.
+
+Backups may contain the same categories of information contained in the primary database.
+
+Automatic backups are currently designed to use a configured retention period. The project's current implementation uses a **30-day retention period for automatic backups**, after which older automatic backups are removed during retention cleanup.
+
+Manual backups may have different retention characteristics depending on how and where they are created.
+
+Backups are not guaranteed to be available indefinitely.
+
+---
+
+# 8. Data Retention
+
+StashieBot retains information for as long as reasonably necessary to provide the relevant functionality, maintain economy integrity, preserve requested administrative records, protect the service, or comply with applicable legal requirements.
+
+Different categories of information may therefore have different retention periods.
+
+For example:
+
+* Current balances may remain while a server uses StashieBot.
+* Inventory and collection information may remain while associated economy data exists.
+* Transaction and purchase records may be retained for historical and audit purposes.
+* Activity information may be updated or replaced as new activity occurs.
+* Temporary effects may expire according to their configured duration.
+* Automatic backups are subject to backup retention policies.
+* Server configuration may remain until it is changed, reset, or the associated data is removed.
+
+We do not retain information longer than reasonably necessary for the purposes described in this Privacy Policy, subject to technical, legal, security, and administrative requirements.
+
+---
+
+# 9. Data Deletion
+
+Server administrators may have access to tools that remove or reset certain economy information.
+
+For example, StashieBot may provide functionality to:
+
+* Reset a member's balance
+* Wipe a member's economy data
+* Reset an entire server economy
+* Remove items
+* Remove shop listings
+* Remove collections
+* Remove configuration data
+
+Some historical records may intentionally be preserved when associated economy data is removed.
+
+For example, a member economy wipe may remove active economy state while preserving transaction or purchase history where necessary to maintain an audit trail.
+
+---
+
+# 10. Individual Data Requests
+
+If you want to request access to, correction of, or deletion of information associated with your use of StashieBot, contact the StashieBot project through its official support/contact method.
+
+When submitting a request, we may need sufficient information to verify the relevant Discord account or server and prevent unauthorized requests.
+
+We will consider requests in accordance with applicable data protection laws.
+
+Some information may need to be retained where required by law, necessary for security, required to maintain legitimate audit records, or technically necessary to preserve the integrity of other users' economy records.
+
+---
+
+# 11. Server Administrator Responsibility
+
+Server administrators decide whether StashieBot is installed and which features are enabled.
+
+Administrators can configure features that affect the processing of server member information, including:
+
+* Message rewards
+* Voice rewards
+* Random drops
+* Shops
+* Collections
+* Items
+* Economy permissions
+* Blacklists
+* Other economy functionality
+
+Administrators are responsible for using StashieBot appropriately within their communities and for complying with applicable laws and Discord's rules.
+
+Discord also explains that server administrators control whether third-party apps are used in their servers and that users should review the developer's privacy policy to understand the app's data practices.
+
+---
+
+# 12. Sharing of Information
+
+StashieBot does not sell users' personal information.
+
+We do not intentionally provide StashieBot's persistent economy database to advertisers or data brokers.
+
+Information may be disclosed when reasonably necessary to:
+
+* Provide StashieBot's functionality
+* Operate or maintain the service
+* Protect StashieBot and its users
+* Investigate abuse or security incidents
+* Comply with applicable law
+* Respond to valid legal requests
+* Protect rights, safety, or property
+
+Information may also be processed by infrastructure or service providers used to host or operate StashieBot, where applicable.
+
+Such providers should only receive information reasonably necessary for the service they provide.
+
+---
+
+# 13. Discord
+
+StashieBot operates on Discord and necessarily interacts with Discord's platform and API.
+
+Discord independently processes information according to its own policies.
+
+Discord's documentation states that apps and bots may have access to information depending on their permissions and configuration. Discord also provides users with a Data Access view for understanding information an app can access in a server.
+
+StashieBot does not control Discord's own data collection, storage, security practices, or privacy policies.
+
+For information about Discord's processing of personal information, users should review Discord's Privacy Policy.
+
+---
+
+# 14. Data Security
+
+We use reasonable technical and organizational measures intended to protect StashieBot's stored information.
+
+These measures may include:
+
+* Database access controls
+* Database transactions
+* Foreign-key constraints
+* Data integrity checks
+* Atomic economy operations
+* Database backups
+* Restricted administrative functionality
+* Role-based economy permissions
+* Access controls for administrative commands
+
+However, no software, database, network, or online service can guarantee absolute security.
+
+You acknowledge that no method of electronic storage or transmission is completely secure.
+
+---
+
+# 15. Data Breaches and Security Incidents
+
+If we become aware of a security incident involving StashieBot data, we will investigate and take reasonable steps appropriate to the circumstances.
+
+Where notification is required by applicable law, we will provide the required notifications within the applicable timeframe.
+
+Users should report suspected security vulnerabilities or unauthorized access through the official StashieBot support/contact method.
+
+---
+
+# 16. Children's Privacy
+
+StashieBot is operated through Discord.
+
+Users must comply with Discord's applicable age requirements and the laws applicable to them.
+
+StashieBot does not intentionally request or collect children's personal information for purposes unrelated to providing its Discord functionality.
+
+Discord's current Terms of Service state that users must meet Discord's minimum age requirement and applicable local age requirements.
+
+---
+
+# 17. International Data Processing
+
+StashieBot may be operated using infrastructure located in countries different from the country where a user lives.
+
+As a result, information may be processed or stored internationally depending on the hosting and infrastructure used by the project.
+
+Where applicable, we will take reasonable steps required by applicable data protection law when transferring or processing personal information internationally.
+
+---
+
+# 18. Third-Party Services
+
+StashieBot may rely on third-party services for hosting, infrastructure, monitoring, communication, or other operational purposes.
+
+Third-party services may process information according to their own privacy policies.
+
+StashieBot is not responsible for the independent privacy practices of third-party services that it does not control.
+
+Discord is an independent third-party platform and maintains its own privacy policies and terms.
+
+---
+
+# 19. Changes to This Privacy Policy
+
+We may update this Privacy Policy when StashieBot's features, data practices, infrastructure, or legal requirements change.
+
+When changes are made, the "Last Updated" date at the top of this Privacy Policy will be updated.
+
+Significant changes may also be announced through the official StashieBot support/community channels where appropriate.
+
+Continued use of StashieBot after an updated Privacy Policy becomes effective indicates continued use of the service under the updated policy.
+
+---
+
+# 20. Contact
+
+If you have questions about this Privacy Policy, want to request information about your stored data, or want to report a privacy or security concern, contact the StashieBot project through its official support/contact method.
+
+**StashieBot**
+
+*Privacy-focused economy tools for Discord communities.*
+
+---
+
+## Summary
+
+In short, StashieBot primarily stores Discord identifiers and server-specific economy information needed to provide its features.
+
+StashieBot may store:
+
+* Discord User IDs
+* Discord Server IDs
+* Channel and role IDs where required
+* Economy balances
+* Transactions
+* Purchases
+* Inventory and item ownership
+* Collection progress
+* Daily reward records
+* Activity and cooldown information
+* Random-drop activity and claim information
+* Server configuration
+* Economy permissions
+* Blacklist records
+* Administrative audit information
+* Backup copies of applicable database information
+
+StashieBot does **not** intentionally store:
+
+* Discord passwords
+* Discord authentication tokens
+* Payment card information
+* Bank information
+* Voice recordings
+* Government identification
+* Home addresses
+* Telephone numbers
+
+StashieBot does not sell users' personal information.
+
+For questions or data requests, contact the project through its official support/contact method.
